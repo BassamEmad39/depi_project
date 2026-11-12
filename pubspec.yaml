@@ -1,0 +1,26 @@
+name: depi_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  firebase_core: ^4.15.0
+  firebase_messaging: ^16.7.0
+  flutter_local_notifications: ^22.3.2
+  firebase_auth: ^6.7.0
+  cloud_firestore: ^6.10.0
+  flutter:
+    sdk: flutter
+  firebase_ui_auth: ^3.1.1
+  firebase_ui_oauth_google: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
